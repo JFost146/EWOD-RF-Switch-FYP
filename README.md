@@ -6,7 +6,7 @@ This repo is the culmination of work done for the purpose of the final year proj
 
 #Circuit Basics
 
-Under the Circuit folder are the KiCAD 9.0 schematics and footprints used for this project, as well as all design files needed to get the board manufactured. The results achieved used JLCPCB, and came to around £30 per board. This, however, is using ENIG plating to optimise the coupling between electrodes for the purpose of EWOD, and would likely still be successful with the significantly cheaper alternative.
+Under the Circuit folder are the KiCAD 9.0 schematics and footprints used for this project, as well as all design files needed to get the board manufactured. The results achieved used JLCPCB, and came to around £30 per board. This, however, is using ENIG plating to optimise the coupling between electrodes for the purpose of EWOD, and would likely still be successful with the significantly cheaper, HASL, alternative.
 
 The circuit runs using a Xiao nRF52840 but is able to function with any microcontroller board, since the controllable components are the digital potentiometer and the high voltage switch controller, both of which run from 3V3, a clk, and a latch/ CS pin. The code is Arduino, found under the Software folder.
 
