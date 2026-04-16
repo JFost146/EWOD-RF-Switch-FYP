@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.ini
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build / output folders
+dist/
+build/
+out/
+
+# Logs
+*.log
+
+# Folders/ files
+GITIGNORE_THIS/
+To_add_to_github.txt
+
+# Environment / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/

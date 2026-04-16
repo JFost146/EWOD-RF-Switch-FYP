@@ -1,0 +1,39 @@
+Comment,Qty,Designator,Footprint,LCSC Part Number,,Manufacturer UK,Manufacturer Part Number 
+0 Ohms,1,R_pot_sub1,-,-,,,
+100nF,2,"C2,C3",0805,C38141,,Digikey,478-KGM21NR71H104KTCT-ND
+10uF,1,C5,1206,C1849,,Digikey,CL31A106KBHNNNE
+100uF,1,C1,Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon,C2161820,,Digikey,875105344010
+100uH,1,L1,CDRH125101MC,C212268,,Digikey,CDRH125/LDNP-101MC
+8k,1,R1,0805,C413197,,Digikey,P0805Z8001FNT
+10k,1,R5,0805,C22356686,,Digikey,CRCW080510K0FKEA
+"22M, 250 V",4,"R3,R4,R8,R11",1206,C41755,,Digikey,RMCF1206JT22M0
+"0R100, 1.5 A",1,RSENSE1,2010,C159215,,Digikey,WSL2010R1000FEA18
+"100nF, 250V",1,C6,1812,C304034,,Digikey,CC1812KKX7RYBB104
+"1M6, 250 V",1,R2,0805,C723463,,Digikey,KTR10EZPF1604
+"4u7, 250V",1,C4,Capacitor_SMD:CP_Elec_10x10.5,C5549292,,Digikey,AEH10104R7M250R
+Conn_01x02,7,"J1,J2,J8,J9,J10,J11,J12",-,-,,,
+Conn_01x02,1,J7,-,-,,,
+Conn_01x07,2,"Power_In1,Power_In2",-,-,,,
+Conn_01x08,1,Microcontroller1,-,-,,,
+Electrode 2,5,"U4,U11,U12,U13,U14",-,-,,,
+Electrode 2,4,"U9,U23,U24,U25",-,-,,,
+Electrode 2,4,"U15,U16,U17,U18",-,-,,,
+Electrode 2,4,"U19,U20,U21,U22",-,-,,,
+Electrode 2,4,"U27,U28,U29,U30",-,-,,,
+Electrode 2,4,"U31,U32,U33,U34",-,-,,,
+Electrode 3,1,U5,-,-,,,
+Electrode 6,1,U8,-,-,,,
+Electrode 8,1,U10,-,-,,,
+"Diode ES2F, 300 V 2 A",1,D1,DIOM5436X244N,"C222525
+",,Mouser,625-ES2F-E3
+Ground Ref,1,U7,-,-,,,
+HV513,1,U2,Package_SO:SOP-24_7.5x15.4mm_P1.27mm,C631624,,Digikey,HV513WG-G
+MAX1771ESA,1,U1,PowerIntegrations_PDIP-8,C3191535,,RS,MAX1771CPA
+MCP41050,1,U26,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C623335,,Digikey,MCP41050T-I/SN
+MountingHole,14,"H8,H9,H10,H11,H12,H13,H14,H15,H16,H17,H18,H19,H20,H21",-,-,,,
+MouseBites,7,"H1,H2,H3,H4,H5,H6,H7",-,-,,,
+On Pad,1,U6,-,-,,,
+Power Pad,1,U3,-,-,,,
+SW_SPDT,1,SW2,-,-,,,
+Test Pad,1,U35,-,-,,,
+TK560P60Y,1,T1,Package_TO_SOT_THT:TO-220-3_Vertical,C469331,,Digikey,IRF644PBF-ND
