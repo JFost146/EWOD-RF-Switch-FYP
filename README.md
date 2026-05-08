@@ -14,7 +14,7 @@ This project is released under the **GNU General Public License v3.0**.
 
 You are free to use, modify, and distribute the software and associated project files under the terms of the GPLv3. Any redistributed or modified versions must also comply with the GPLv3 terms.
 
-A full copy of the licence is provided in the [`LICENSE`](LICENSE) file.
+A full copy of the licence is provided in the [`LICENSE`](license.txt) file.
 
 Parts of this project are derived from or inspired by the GaudiLabs OpenDrop project and Nick de Smith’s Nixie high-voltage switching PSU. Please refer to the acknowledgements section for the original sources.
 
