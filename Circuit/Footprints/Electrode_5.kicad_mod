@@ -1,0 +1,104 @@
+(footprint "Electrode_5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Zhaoxing VH series connector, ZX-VH3.96-5PLT (https://www.lcsc.com/datasheet/lcsc_datasheet_2306191414_Megastar-ZX-VH3-96-4PLT_C7429652.pdf), generated with kicad-footprint-generator")
+	(tags "connector Zhaoxing VH vertical")
+	(property "Reference" "REF**"
+		(at 0 -6.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1ac36ef3-c51e-4ed0-92f5-7648fdb6d328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Electrode_5"
+		(at 0 6.95 0)
+		(layer "F.Fab")
+		(uuid "00a9ba25-f921-4929-8bea-315eafe71c04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "282e4700-c73a-4c4c-8e64-4d97fb228c2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f34918a9-0210-4b38-83f2-ed5ec39fb04b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 1.27 1.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.9525 -0.4445) (xy -0.937999 -0.517401) (xy -0.896704 -0.579204) (xy -0.834901 -0.620499)
+					(xy -0.762 -0.635) (xy 0.762 -0.635) (xy 0.834901 -0.620499) (xy 0.896704 -0.579204) (xy 0.937999 -0.517401)
+					(xy 0.9525 -0.4445) (xy 0.9525 0.4445) (xy 0.937999 0.517401) (xy 0.896704 0.579204) (xy 0.834901 0.620499)
+					(xy 0.762 0.635) (xy -0.762 0.635) (xy -0.834901 0.620499) (xy -0.896704 0.579204) (xy -0.937999 0.517401)
+					(xy -0.9525 0.4445)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.24 -1.24) (xy -0.95 -1.24) (xy -0.8 -1.39) (xy -0.5 -1.11) (xy -0.2 -1.39) (xy 0.1 -1.11)
+					(xy 0.4 -1.38) (xy 0.7 -1.11) (xy 0.85 -1.25) (xy 1.14 -1.25) (xy 1.14 -0.96) (xy 1.29 -0.8) (xy 1.01 -0.5)
+					(xy 1.28 -0.2) (xy 1.01 0.1) (xy 1.29 0.4) (xy 1.02 0.7) (xy 1.15 0.85) (xy 1.15 1.13) (xy 0.85 1.15)
+					(xy 0.7 1.28) (xy 0.4 1.02) (xy 0.1 1.28) (xy -0.2 1.02) (xy -0.5 1.28) (xy -0.8 1.02) (xy -0.95 1.14)
+					(xy -1.25 1.14) (xy -1.25 0.85) (xy -1.38 0.7) (xy -1.12 0.4) (xy -1.39 0.1) (xy -1.11 -0.2) (xy -1.39 -0.5)
+					(xy -1.11 -0.8) (xy -1.25 -0.95)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "0d282f51-f4f0-428c-b881-928b6d86e265")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Zhaoxing.3dshapes/Zhaoxing_VH_ZX-VH3.96-5PLT_1x05-1MP_P3.96mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

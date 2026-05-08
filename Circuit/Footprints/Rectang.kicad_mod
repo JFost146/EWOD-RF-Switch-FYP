@@ -1,0 +1,128 @@
+(footprint "Rectang"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "104816c8-ea8c-42c0-9b49-5f5297385482")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Rectang"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2cf7bc9-1681-4db6-b3a8-de26d31fd8ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e73be3c0-fd06-4986-aabb-d8d16ab459d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "930a4f9c-3347-4eca-a4f3-2089413e7390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "53b70c60-fb22-4d82-be92-849556061aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 2.25 -1.5)
+		(size 0.452498 0.452498)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.226249 -0.567125) (xy -0.221082 -0.5931) (xy -0.206369 -0.61512) (xy -0.184349 -0.629833)
+					(xy -0.158373 -0.634999) (xy 0.158374 -0.635) (xy 0.184349 -0.629833) (xy 0.206369 -0.61512) (xy 0.221082 -0.5931)
+					(xy 0.226248 -0.567124) (xy 0.226249 0.567125) (xy 0.221082 0.5931) (xy 0.206369 0.61512) (xy 0.184349 0.629833)
+					(xy 0.158373 0.634999) (xy -0.158374 0.635) (xy -0.184349 0.629833) (xy -0.206369 0.61512) (xy -0.221082 0.5931)
+					(xy -0.226248 0.567124)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_rect
+				(start -0.5 -5.5)
+				(end 0.5 8)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -4.5 -5.5)
+				(end -0.5 -4.5)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -4 8)
+				(end 0.5 9)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -4.5 8)
+				(end -4 9)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_rect
+				(start -5.5 -5.5)
+				(end -4.5 9)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(uuid "141dff9d-b29e-4f41-9003-f52233f33bc0")
+	)
+	(group ""
+		(uuid "6cfc88e9-e5ce-4b1a-b651-5bdbc868c4bb")
+		(members "141dff9d-b29e-4f41-9003-f52233f33bc0")
+	)
+	(embedded_fonts no)
+)
