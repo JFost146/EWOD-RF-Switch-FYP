@@ -149,6 +149,6 @@ University of Birmingham
 
 ## Project Supervisor
 
-**Prof. Yi Wang**
+**Prof. Yi Wang**  
 Department of Electronic, Electrical and Systems Engineering  
 University of Birmingham
