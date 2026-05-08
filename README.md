@@ -108,7 +108,7 @@ To use the board:
 | Electrode output voltage range | 50 V to 290 V |
 | Electrode output current range | 2.3 µA to 13.2 µA |
 | Number of electrode designs | 7 |
-| Minimum standalone output | 50 V from XIAO nRF52840 USB input |
+| Minimum tested standalone output from XIAO nRF52840 USB input  | 50 V |
 
 ---
 
@@ -130,24 +130,6 @@ Add switch link here.
 
 ---
 
-## Repository Structure
-
-.
-├── Circuit/
-│   ├── KiCad schematics
-│   ├── PCB footprints
-│   └── Manufacturing files
-│
-├── Software/
-│   └── Arduino control code
-│
-├── Liquid Switch Tests/
-│   ├── CST simulation results
-│   └── VNA measurement results
-│
-└── README.md
-
----
 
 ## Acknowledgements
 
@@ -168,5 +150,5 @@ University of Birmingham
 ## Project Supervisor
 
 **Prof. Yi Wang**
-Department of Electronic, Electrical and Systems Engineering
+Department of Electronic, Electrical and Systems Engineering  
 University of Birmingham
